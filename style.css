@@ -275,6 +275,11 @@ nav li {
   text-align: center;
 }
 
+.title-section h3 img {
+  margin-top: 1em;
+  max-height: 5em;
+}
+
 .title-section:after {
   background-color: #00fd01;
   content: "";
@@ -511,7 +516,13 @@ nav li {
   font-size: 30px;
   color: #222222;
   margin: 0;
+  line-height: 1.2em;
 }
+
+.planes-list li small{
+  font-size: x-small;
+}
+
 .planes-list li h4 {
   color: #222222;
   margin: 0;
@@ -522,6 +533,7 @@ nav li {
 }
 .planes-list li a {
   font-weight: 600;
+  margin-top: 1em;
   padding: 20px 30px;
   color: #222;
   background: #00fd01;
@@ -532,6 +544,21 @@ nav li {
   -o-animation: over-reservar-planes 0.35s ease-out forwards;
   animation: over-reservar-planes 0.35s ease-out forwards;
 }
+
+.card-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 35%;
+}
+
+.card-title div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+}
+
 
 /* end planes */
 
