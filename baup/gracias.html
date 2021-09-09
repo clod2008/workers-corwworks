@@ -1,0 +1,471 @@
+<!doctype html>
+<html amp lang="es">
+  <head>      
+    <meta name="" content="text/html;" http-equiv="content-type" charset="utf-8">    
+    <title>::: Baup ::: </title>
+    <link rel="canonical" href="index.html">    
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">    
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>   
+    <style amp-custom>
+
+:root{            
+             /* Colors */ 
+             --color-primary: #FD6B08;  
+             --color-accent: #039BE6;
+             --color-secondary: #222222;
+             --color-text: #535353; 
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('assets/fonts/Poppins-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('assets/fonts/Poppins-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('assets/fonts/Poppins-SemiBold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body{            
+            font-family: "Poppins", sans-serif;                        
+            position: relative;  
+            margin: 0;       
+            padding: 0;
+            background: white;
+        } 
+
+        section{
+            margin: 120px 0 0 0;
+            float: left;
+            width: 100%;
+        }
+
+        footer{
+            width: 100%;
+            float: left;
+            margin-top: 120px;
+        }
+
+        .back-landing{
+            background: url("assets/img/back-desktop-op.jpg") no-repeat center top;
+        }
+
+
+        li,ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1,h2,h3{
+            padding: 0;
+            margin: 0;            
+           
+        }
+
+        h1{
+            font-size: 56px; 
+            line-height: 1.2em;  
+            margin-bottom: 40px;         
+            font-weight: 700;
+        }
+
+        h2{
+            font-size: 18px; 
+            font-weight: normal;           
+            color: var(--color-text);    
+            margin-bottom: 40px;
+            line-height: 1.8em;        
+        }
+
+        h3{
+            font-size: 24px;  
+            font-weight: normal;
+            margin-top: 24px;
+            
+        }
+
+        a{
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 400;            
+        }   
+
+        #sidebar, .hamburger{
+            display: none;
+        }
+
+        #sidebar{
+            background: white;
+        }
+
+        #sidebar li{
+            width: 100%;            
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            padding: 16px 40px;            
+        }
+
+        #sidebar li a{
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .ham-dark{
+            background: url(assets/img/menu-dark-24px.svg) no-repeat;
+        } 
+
+        .hamburger{            
+            width: 24px;
+            height: 24px;                        
+            border: none;    
+            outline:0;        
+        }
+
+        .close-btn{            
+            border: none;
+            background: none;
+            width: 40px;
+            height: 40px;            
+            float: right;
+            outline: none;
+        }
+
+        .content{
+            width: 100%;
+            max-width: 1600px;
+            position: relative;
+            z-index: 1;
+            margin: 0 auto;
+        }
+
+        header{
+            width: 100%;            
+            position: relative; 
+            border-top: #FD6B08 solid 5px; 
+            margin-bottom: 40px;                       
+        }
+
+        header .content{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        nav{
+            float: right;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        nav li{
+            margin-left: 40px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        nav li:hover{
+            color: var(--color-primary);
+        }
+
+        .iniciar-sesion{
+            border-radius: 22px;
+            background: var(--color-accent);
+            color: white;
+            padding: 16px;
+            font-weight: 600;
+        }
+
+        .iniciar-sesion:hover{
+            background: var(--color-primary);
+        }
+        
+        .header-section{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-header{
+            display: flex;                       
+            justify-content: center;
+            width: 45%;
+        }
+
+        .img-dash-header{
+            width: 55%;            
+        }
+
+        .img-dash-header amp-img{
+            width: 1013px;
+            height: 966px;
+        }
+
+        .content-info-header{
+            width: 60%;
+            margin-top: 200px; 
+            margin-left: 200px;
+        }
+
+        .btn-grande{
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+            padding: 24px 36px;
+            background: var(--color-primary);
+            border-radius: 40px;
+            color: white;
+            float: left;
+            cursor: pointer;
+            margin-top: 24px;
+            -webkit-box-shadow: 0px 20px 20px -5px rgba(253,107,8,0.3); 
+            box-shadow: 0px 20px 20px -5px rgba(253,107,8,0.3);
+        }
+
+        .btn-grande:hover{
+            background: var(--color-accent);
+            -webkit-box-shadow: 0px 20px 20px -5px rgba(3,155,230,0.3); 
+            box-shadow: 0px 20px 20px -5px rgba(3,155,230,0.3);            
+        }
+        
+
+        /* FOOTER */
+
+        footer{
+            background: var(--color-accent);
+            padding: 24px 0;
+        }
+
+        footer .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .legales p, .legales a{
+            font-size: 12px;
+            color: white;
+            font-weight: 500;
+            margin-left: 24px;
+        }
+
+        .legales{
+            display: flex;
+            align-items: center;
+        }
+
+        .legales a:hover{
+            color: var(--color-secondary);
+        }
+
+        /* ----------------------------------------------------*/
+        /* RESPONSIVE */ 
+        /* ----------------------------------------------------*/
+
+        @media (max-width: 1366px){
+            .back-landing{
+                background: url("assets/img/back-desktop-1366.jpg") no-repeat center top;
+            }            
+            .content{                
+                max-width: 1200px;
+            }
+            .content-info-header{
+                width: 100%;
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 45px; 
+            }
+
+        }
+
+        @media (max-width: 1024px){
+            
+            section{
+                margin: 60px 0 0 0;
+            }
+            footer{                
+                margin-top: 60px;
+            }
+            .back-landing{
+                background: url("assets/img/back-desktop-1024.jpg") no-repeat center top;
+            }            
+            .content{                
+                max-width: 900px;
+            }
+            nav li{display: none;}
+            h1{
+                font-size: 36px; 
+            }
+            h2{
+                font-size: 16px; 
+            }
+            .img-dash-header amp-img{
+                width: 600px;
+                height: 572px;
+            }
+            .content-info-header{             
+                margin-top: 100px;
+            }
+            .btn-grande{
+                font-size: 21px;
+            }
+        
+        }
+
+        @media (max-width: 768px){
+
+            .content{                
+                max-width: 90%;
+            }
+
+            .back-landing{
+                background: url("assets/img/back-desktop-768.jpg") no-repeat center top;
+            }   
+            h1{
+                font-size: 28px; 
+            }
+            h2{
+                font-size: 14px;
+                margin-bottom: 24px; 
+            }
+            .img-dash-header amp-img{
+                width: 500px;
+                height: 477px;
+            }
+            .btn-grande{
+                padding: 16px 24px;
+                font-size: 18px;
+                border-radius: 27px;   
+                margin-top: 24px; 
+            }
+          
+            footer .content {
+                flex-direction: column;
+            }
+
+        }     
+
+        @media (max-width: 414px){
+            #sidebar{
+                width: 65%;
+            }
+
+            #sidebar li{
+                font-size: 14px;
+            }
+
+            .content{                
+                max-width: 90%;
+            }
+            h1{
+                margin-bottom: 24px;
+            }
+            h2{
+                margin-bottom: 16px;
+            }            
+            .back-landing{
+                background: url("assets/img/back-mobile.jpg") no-repeat center top;
+            }  
+            .header-section{
+                flex-direction: column;
+            }
+            .info-header{
+                width: 100%;
+            }
+            .content-info-header {
+                width: 90%;
+                margin: 0 auto 40px auto;
+            }
+            .btn-grande{
+                margin-top: 16px;
+                margin-bottom: 40px;
+            }
+            .legales{
+                flex-direction: column;
+            }
+    
+        }     
+   
+
+    </style>       
+    
+  </head>
+
+  <body class="back-landing">
+
+    <header>
+        <div class="content">
+            <div class="logo">
+                <amp-img      
+                    src="assets/img/logo-baup.svg"
+                    width="211px"
+                    height="49px">
+                </amp-img>
+            </div>
+        </div>
+    </header> 
+    <section class="header-section" id="header-section">
+        <div class="info-header">
+            <div class="content-info-header">
+                <h1>Su mensaje ha sido enviado!</h1>
+                <h2>
+                    A la brevedad un representante de Baup se pondrá en contacto con usted para resolver sus dudas. 
+                </h2>
+                <a href="index.html" class="btn-grande">Volver a la Home</a>
+            </div>
+        </div>
+        <div class="img-dash-header">
+            <amp-img
+                src="assets/img/dash-header.png">
+            </amp-img>
+        </div> 
+    </section>
+    
+    <footer>
+        <div class="content">
+            <div class="logo-footer">
+                <amp-img
+                src="assets/img/logo-footer.svg"
+                width="173"
+                height="40">
+                </amp-img>  
+            </div>
+            <div class="legales">
+                <p>2021 © Baup - Todos los derechos reservados.</p>
+                <a href="">Políticas de privacidad</a>
+                <a href="">Términos y condiciones</a>
+            </div>
+        </div>
+    </footer>
+  </body>
+
+</html>
+

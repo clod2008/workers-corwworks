@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-Icono_32x32_4">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Icono_32x32_4" data-name="Icono 32x32 – 4" clip-path="url(#clip-Icono_32x32_4)">
+    <rect width="32" height="32" fill="#fff"/>
+    <g id="Grupo_22" data-name="Grupo 22" transform="translate(3 -7.111)">
+      <g id="Grupo_21" data-name="Grupo 21" transform="translate(1 13.487)">
+        <path id="Trazado_36" data-name="Trazado 36" d="M732.687,391.537h2.262v.4a1.124,1.124,0,0,0,1.089,1.15H748.71a1.124,1.124,0,0,0,1.089-1.15v-.4h2.262a2.387,2.387,0,0,1,2.313,2.442v8.549a2.388,2.388,0,0,1-2.313,2.443h-2.5a.755.755,0,0,0,.345-.638V403.5a.727.727,0,0,0-.7-.743H735.545a.727.727,0,0,0-.7.743v.837a.756.756,0,0,0,.344.638h-2.5a2.388,2.388,0,0,1-2.313-2.443v-8.549A2.387,2.387,0,0,1,732.687,391.537Z" transform="translate(-730.374 -384.312)" fill="#17100d" fill-rule="evenodd"/>
+        <path id="Rectángulo_5" data-name="Rectángulo 5" d="M1.867,0h9.276a1.867,1.867,0,0,1,1.867,1.867v5.5a1.867,1.867,0,0,1-1.867,1.867H1.868A1.868,1.868,0,0,1,0,7.369v-5.5A1.867,1.867,0,0,1,1.867,0Z" transform="translate(5.494 -1)" fill="#17100d"/>
+        <path id="Trazado_37" data-name="Trazado 37" d="M753.133,412.67V414.5a1.011,1.011,0,0,1-.954,1.052h-11.1a1.01,1.01,0,0,1-.955-1.052V412.67Z" transform="translate(-734.628 -393.534)" fill="#17100d" fill-rule="evenodd"/>
+        <path id="Trazado_38" data-name="Trazado 38" d="M743.9,414.782h9.848a.279.279,0,0,1,.279.279h0a.279.279,0,0,1-.279.278H743.9a.279.279,0,0,1-.278-.278h0A.28.28,0,0,1,743.9,414.782Z" transform="translate(-736.825 -394.456)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_39" data-name="Trazado 39" d="M769.718,399.834a.59.59,0,1,1-.589.589A.59.59,0,0,1,769.718,399.834Z" transform="translate(-748.625 -387.435)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_40" data-name="Trazado 40" d="M769.4,395.282a.993.993,0,1,1-.994.994A.994.994,0,0,1,769.4,395.282Z" transform="translate(-748.312 -385.328)" fill="#fff" fill-rule="evenodd"/>
+        <circle id="Elipse_2" data-name="Elipse 2" cx="0.59" cy="0.59" r="0.59" transform="translate(20.503 10.358)" fill="#17100d"/>
+        <g id="Grupo_20" data-name="Grupo 20" transform="translate(3.528 4.103)">
+          <path id="Trazado_41" data-name="Trazado 41" d="M737.562,384.3h.377v3.634h-1.307v-2.7A.932.932,0,0,1,737.562,384.3Z" transform="translate(-736.633 -384.304)" fill="#17100d" fill-rule="evenodd"/>
+          <path id="Trazado_42" data-name="Trazado 42" d="M767.132,384.3h-.377v3.634h1.307v-2.7A.932.932,0,0,0,767.132,384.3Z" transform="translate(-751.117 -384.304)" fill="#17100d" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1137 @@
+<!doctype html>
+<html amp lang="es">
+  <head>      
+    <meta name="" content="text/html;" http-equiv="content-type" charset="utf-8">    
+    <title>::: Baup ::: </title>
+    <link rel="canonical" href="index.html">    
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">    
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>            
+    <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    
+    <style amp-custom>
+
+        :root{            
+             /* Colors */ 
+             --color-primary: #FD6B08;  
+             --color-accent: #039BE6;
+             --color-secondary: #222222;
+             --color-text: #535353; 
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('assets/fonts/Poppins-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('assets/fonts/Poppins-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('assets/fonts/Poppins-SemiBold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body{            
+            font-family: "Poppins", sans-serif;                        
+            position: relative;  
+            margin: 0;       
+            padding: 0;
+            background: white;
+        } 
+
+        section{
+            margin: 120px 0 0 0;
+            float: left;
+            width: 100%;
+        }
+
+        footer{
+            width: 100%;
+            float: left;
+            margin-top: 120px;
+        }
+
+        .back-landing{
+            background: url("assets/img/back-desktop-op.jpg") no-repeat center top;
+        }
+
+
+        li,ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1,h2,h3{
+            padding: 0;
+            margin: 0;            
+           
+        }
+
+        h1{
+            font-size: 56px; 
+            line-height: 1.2em;  
+            margin-bottom: 40px;         
+            font-weight: 700;
+        }
+
+        h2{
+            font-size: 18px; 
+            font-weight: normal;           
+            color: var(--color-text);    
+            margin-bottom: 40px;
+            line-height: 1.8em;        
+        }
+
+        h3{
+            font-size: 24px;  
+            font-weight: normal;
+            margin-top: 24px;
+            
+        }
+
+        a{
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 400;            
+        }   
+
+        #sidebar, .hamburger{
+            display: none;
+        }
+
+        #sidebar{
+            background: white;
+        }
+
+        #sidebar li{
+            width: 100%;            
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            padding: 16px 40px;            
+        }
+
+        #sidebar li a{
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .ham-dark{
+            background: url(assets/img/menu-dark-24px.svg) no-repeat;
+        } 
+
+        .hamburger{            
+            width: 24px;
+            height: 24px;                        
+            border: none;    
+            outline:0;        
+        }
+
+        .close-btn{            
+            border: none;
+            background: none;
+            width: 40px;
+            height: 40px;            
+            float: right;
+            outline: none;
+        }
+
+        .content{
+            width: 100%;
+            max-width: 1600px;
+            position: relative;
+            z-index: 1;
+            margin: 0 auto;
+        }
+
+        header{
+            width: 100%;            
+            position: relative; 
+            border-top: #FD6B08 solid 5px; 
+            margin-bottom: 40px;                       
+        }
+
+        header .content{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        nav{
+            float: right;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        nav li{
+            margin-left: 40px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        nav li:hover{
+            color: var(--color-primary);
+        }
+
+        .iniciar-sesion{
+            border-radius: 22px;
+            background: var(--color-accent);
+            color: white;
+            padding: 16px;
+            font-weight: 600;
+        }
+
+        .iniciar-sesion:hover{
+            background: var(--color-primary);
+        }
+        
+        .header-section{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-header{
+            display: flex;                       
+            justify-content: center;
+            width: 45%;
+        }
+
+        .img-dash-header{
+            width: 55%;            
+        }
+
+        .img-dash-header amp-img{
+            width: 1013px;
+            height: 966px;
+        }
+
+        .content-info-header{
+            width: 60%;
+            margin-top: 200px; 
+            margin-left: 200px;
+        }
+
+        .btn-grande{
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+            padding: 24px 36px;
+            background: var(--color-primary);
+            border-radius: 40px;
+            color: white;
+            float: left;
+            cursor: pointer;
+            margin-top: 24px;
+            -webkit-box-shadow: 0px 20px 20px -5px rgba(253,107,8,0.3); 
+            box-shadow: 0px 20px 20px -5px rgba(253,107,8,0.3);
+        }
+
+        .btn-grande:hover{
+            background: var(--color-accent);
+            -webkit-box-shadow: 0px 20px 20px -5px rgba(3,155,230,0.3); 
+            box-shadow: 0px 20px 20px -5px rgba(3,155,230,0.3);            
+        }
+        
+
+        /* GESTION */
+
+        .gestion{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img-gestion{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-gestion amp-img{
+            width: 724px;
+            height: 881px;
+        }
+        
+
+        .info-gestion{
+            width: 50%;
+            display: flex;                       
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content-info-gestion{
+            width: 60%;
+        }
+
+
+        /* MEDIOS DE PAGO */
+
+        .medios-de-pago{
+            
+        }
+
+        .medios-de-pago h1, .medios-de-pago h2{
+            text-align: center;
+            width: 55%;
+        }
+
+        .medios-de-pago .content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ventajas-medios-de-pago ul{
+            display: flex;
+            justify-content: space-between; 
+            margin: 40px 0 0 0;          
+        }
+
+        .ventajas-medios-de-pago li{
+            display: flex;
+            align-items: center;
+            margin: 0 24px;
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+
+        .ventajas-medios-de-pago span{
+            width: 16px;
+            height: 16px;
+            background: var(--color-accent);
+            border-radius: 50%;
+            display: block;
+            margin-right: 16px;
+        }
+
+        .img-medios{
+            display: flex;       
+            margin: 70px 0;                         
+            justify-content: center;
+        }
+
+        .img-medios amp-img{
+            width: 400px;
+            height: 56px;
+        }
+
+
+        /* FUNCIONALIDADES */
+
+        .funcionalidades h1{
+            text-align: center;
+        }
+
+        .funcionalidades ul{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .funcionalidades li{
+            width: 400px;
+            height: 230px;
+            background: white;
+            -webkit-box-shadow: 0px 20px 20px -5px rgba(34,34,34,0.1); 
+            box-shadow: 0px 20px 20px -5px rgba(34,34,34,0.1);
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 60px;
+        }
+
+        .funcionalidades li h1{
+            font-size: 28px;
+            color: var(--color-primary);
+            text-align: center; 
+            width: 60%; 
+            margin: 0 0 24px 0;          
+        }
+
+        .funcionalidades li p{
+            font-size: 16px;
+            color: var(--color-secondary);
+            text-align: center;   
+            width: 60%;      
+            margin: 0;              
+        }
+
+        /* QUIENES SOMOS */
+
+        .quienes-somos .content{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo-baup,.info-quienes-somos{
+            width: 50%;
+        }
+
+        .logo-baup{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-baup amp-img{
+            width:573px;
+            height: 133px;
+        }
+
+        .info-quienes-somos{
+            display: flex;
+            justify-content: center;            
+            flex-direction: column;
+            align-items: center;            
+        }
+
+        .info-quienes-somos h1, .info-quienes-somos h2{
+            width: 100%;
+        }
+
+        /* NUESTROS PLANES */
+
+        .nuestros-planes h1{
+            width: 100%;
+            text-align: center;
+        }
+
+        .nuestros-planes ul{
+            display: flex;            
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px;
+        }
+
+        .nuestros-planes li{
+            background: white;
+            border-radius: 50px;
+            -webkit-box-shadow: 0px 20px 20px -5px rgba(34,34,34,0.1); 
+            box-shadow: 0px 20px 20px -5px rgba(34,34,34,0.1);
+            padding: 50px;
+            text-align: center;
+            margin: 0 24px;
+        }
+
+        .big-plan{
+            padding: 80px 70px !important;
+        }
+
+        .nuestros-planes li p{
+            color: var(--color-accent);
+            font-size: 21px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .nuestros-planes li .price-plan{
+            color: var(--color-primary);
+            font-size: 78px;
+            font-weight: 700;
+            text-align: center;         
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .price-plan span{
+            font-size: 16px;
+        }
+
+        .features-plan{
+            text-align: center;
+            font-size: 14px;            
+            line-height: 1.8em;
+            margin-top: 24px;
+            height: 180px;
+        }
+
+        .btn-contratar-plan{
+            padding: 16px 24px;
+            background: var(--color-accent);
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 27px;
+            font-weight: 700;
+            display: block;  
+            margin-top: 40px;        
+        }
+
+
+        /* INTEGRACIONES */
+
+        .integraciones h1{
+            width: 100%;
+            text-align: center;
+        }
+
+        .integraciones h2{
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .integraciones ul{
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;            
+        }
+
+        .integraciones li{
+            margin: 0 40px;
+        }
+
+
+        /* CONTACTO */
+
+        .contacto h1{
+            width: 100%;
+            text-align: center;
+        }
+
+        .formulario{
+            width: 600px;
+            margin: 60px auto 0 auto;
+        }
+
+        .formulario input, .formulario textarea{
+            background: #FAFAFA;
+            font-size: 16px;
+            color: var(--color-secondary);
+            width: calc(100% - 32px);
+            padding: 16px;
+            border-radius: 27px;
+            border: none;
+            margin-bottom: 24px;
+            font-family: 'Poppins';
+        }
+
+        .formulario button{
+            padding: 16px 24px;
+            background: var(--color-primary);
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 27px;
+            font-weight: 700;
+            display: block;                
+            border: none;
+            margin: 0 auto;
+            cursor: pointer;
+        }        
+
+        .formulario button:hover{
+            background: var(--color-accent);
+        }
+
+        /* FOOTER */
+
+        footer{
+            background: var(--color-accent);
+            padding: 24px 0;
+        }
+
+        footer .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .legales p, .legales a{
+            font-size: 12px;
+            color: white;
+            font-weight: 500;
+            margin-left: 24px;
+        }
+
+        .legales{
+            display: flex;
+            align-items: center;
+        }
+
+        .legales a:hover{
+            color: var(--color-secondary);
+        }
+
+        /* ----------------------------------------------------*/
+        /* RESPONSIVE */ 
+        /* ----------------------------------------------------*/
+
+        @media (max-width: 1366px){
+            .back-landing{
+                background: url("assets/img/back-desktop-1366.jpg") no-repeat center top;
+            }            
+            .content{                
+                max-width: 1200px;
+            }
+            .content-info-header{
+                width: 100%;
+                margin-left: 100px;
+            }
+            h1{
+                font-size: 45px; 
+            }
+            .info-quienes-somos h1, .info-quienes-somos h2{
+                width: 80%;
+            }
+            .medios-de-pago h1, .medios-de-pago h2{
+                width: 90%;
+            }
+            .logo-baup amp-img{
+                width: 460px;
+                height: 106px;
+            }
+            .funcionalidades ul{
+                width: 100%;
+            }
+            .funcionalidades li{
+                width: 360px;
+            }
+        }
+
+        @media (max-width: 1024px){
+            #sidebar{
+                width: 48%;
+            }
+            #sidebar, .hamburger{
+                display: block;
+            }
+            section{
+                margin: 60px 0 0 0;
+            }
+            footer{                
+                margin-top: 60px;
+            }
+            .back-landing{
+                background: url("assets/img/back-desktop-1024.jpg") no-repeat center top;
+            }            
+            .content{                
+                max-width: 900px;
+            }
+            nav li{display: none;}
+            h1{
+                font-size: 36px; 
+            }
+            h2{
+                font-size: 16px; 
+            }
+            .img-dash-header amp-img{
+                width: 600px;
+                height: 572px;
+            }
+            .content-info-header{             
+                margin-top: 100px;
+            }
+            .btn-grande{
+                font-size: 21px;
+            }
+            .img-gestion amp-img{
+                width: 500px;
+                height: 608px;
+            }
+            .ventajas-medios-de-pago li{
+                font-size: 21px;
+            }
+            .funcionalidades ul{
+                justify-content: center;
+            }
+            .funcionalidades li{
+                margin: 0 24px 40px;
+            }
+            .logo-baup amp-img{
+                width: 355px;
+                height: 82px;
+            }
+            .features-plan{
+                font-size: 14px;
+                width: 170px;
+                height: 220px;
+            }
+            .nuestros-planes li{
+                padding: 40px;
+                margin: 0 16px;
+            }
+
+        
+        }
+
+        @media (max-width: 768px){
+
+            .content{                
+                max-width: 90%;
+            }
+
+            .back-landing{
+                background: url("assets/img/back-desktop-768.jpg") no-repeat center top;
+            }   
+            h1{
+                font-size: 28px; 
+            }
+            h2{
+                font-size: 14px;
+                margin-bottom: 24px; 
+            }
+            .img-dash-header amp-img{
+                width: 500px;
+                height: 477px;
+            }
+            .btn-grande{
+                padding: 16px 24px;
+                font-size: 18px;
+                border-radius: 27px;   
+                margin-top: 24px; 
+            }
+            .img-gestion amp-img{
+                width: 400px;
+                height: 487px;
+            }  
+            .content-info-gestion{
+                width: 80%;
+            }      
+            .ventajas-medios-de-pago li {
+                font-size: 16px;
+            }    
+            .funcionalidades li {
+                width: 320px;
+            }
+            .img-medios{
+                flex-direction: column;
+            }
+            .funcionalidades li h1 {
+                font-size: 21px;
+            }
+            .logo-baup amp-img{
+                width: 300px;
+                height: 79px;
+            }
+            .nuestros-planes li{
+                padding: 24px;
+            }
+            .nuestros-planes li .price-plan{
+                font-size: 48px;
+            }
+            .big-plan {
+                padding: 40px 35px !important;
+            }
+            .features-plan {
+                font-size: 12px;
+                width: 170px;
+                height: 180px;
+            }
+            .integraciones h2 {
+                width: 80%;
+            }
+            .integraciones ul {
+                margin-top: 60px;
+                flex-direction: column;
+                align-items: center;
+            } 
+            .integraciones li{
+                margin-bottom: 40px;
+            }
+            footer .content {
+                flex-direction: column;
+            }
+
+        }     
+
+        @media (max-width: 414px){
+            #sidebar{
+                width: 65%;
+            }
+
+            #sidebar li{
+                font-size: 14px;
+            }
+
+            .content{                
+                max-width: 90%;
+            }
+            h1{
+                margin-bottom: 24px;
+            }
+            h2{
+                margin-bottom: 16px;
+            }            
+            .back-landing{
+                background: url("assets/img/back-mobile.jpg") no-repeat center top;
+            }  
+            .header-section{
+                flex-direction: column;
+            }
+            .info-header{
+                width: 100%;
+            }
+            .content-info-header {
+                width: 90%;
+                margin: 0 auto 40px auto;
+            }
+            .btn-grande{
+                margin-top: 16px;
+                margin-bottom: 40px;
+            }
+            .gestion{
+                flex-direction: column-reverse;
+            }
+            .info-gestion{
+                width: 100%;
+                margin-top: 70px;
+            }
+            .img-gestion{
+                width: 100%;
+            }
+            .ventajas-medios-de-pago ul{
+                flex-direction: column;
+                margin: 0;
+            }
+
+            .ventajas-medios-de-pago li{
+                margin-top: 24px;
+            }
+            .img-medios{
+                width: 100%;
+                margin: 40px 0 0 0;
+                align-items: center;
+            }
+            .img-medios amp-img{
+                margin-bottom: 24px;               
+                width: 300px;
+                height: 42px;
+            }      
+            .funcionalidades li {
+                margin: 0 0 40px;
+            }    
+            .funcionalidades li p {
+                font-size: 14px;
+            }
+            .quienes-somos .content{
+                flex-direction: column;
+            }
+            .logo-baup,.info-quienes-somos{
+                width: 100%;
+            }
+            .logo-baup{
+                margin-bottom: 70px;
+            }
+            .nuestros-planes ul{
+                flex-direction: column;
+            }
+            .nuestros-planes li{
+                margin-bottom: 40px;
+                padding: 40px;
+            }
+            .big-plan{
+                padding: 40px;
+            }
+            .formulario{
+                max-width: 600px;
+                width: 100%;
+            }
+            .legales{
+                flex-direction: column;
+            }
+    
+        }     
+   
+
+    </style>       
+    
+  </head>
+
+  <body class="back-landing">
+    <amp-sidebar id="sidebar" layout="nodisplay" side="left">
+        <button on='tap:sidebar.close' class="close-btn">
+            <amp-img
+                src="assets/img/close-24px.svg"
+                width="24px"
+                height="24px">
+            </amp-img> 
+        </button>         
+        <ul>
+            <li on="tap:sidebar.close,header-section.scrollTo(duration=400,position=top)">Home</li>
+            <li on="tap:sidebar.close,funcionalidades.scrollTo(duration=400,position=top)">Funcionalidades</li>
+            <li on="tap:sidebar.close,quienes-somos.scrollTo(duration=400,position=top)">¿Quiénes somos?</li>
+            <li on="tap:sidebar.close,nuestros-planes.scrollTo(duration=400,position=top)">Planes</li>
+            <li on="tap:sidebar.close,integraciones.scrollTo(duration=400,position=top)">Integraciones</li>
+            <li on="tap:sidebar.close,contacto.scrollTo(duration=400,position=top)">Contacto</li>
+            <li><a href="" class="iniciar-sesion">Iniciar sesión</a></li>           
+        </ul>
+    </amp-sidebar> 
+    <header>
+        <div class="content">
+            <div class="logo">
+                <amp-img      
+                    src="assets/img/logo-baup.svg"
+                    width="211px"
+                    height="49px">
+                </amp-img>
+            </div>
+            <nav>
+                <ul>
+                    <li on="tap:sidebar.close,header-section.scrollTo(duration=400,position=top)">Home</li>
+                    <li on="tap:sidebar.close,funcionalidades.scrollTo(duration=400,position=top)">Funcionalidades</li>
+                    <li on="tap:sidebar.close,quienes-somos.scrollTo(duration=400,position=top)">¿Quiénes somos?</li>
+                    <li on="tap:sidebar.close,nuestros-planes.scrollTo(duration=400,position=top)">Planes</li>
+                    <li on="tap:sidebar.close,integraciones.scrollTo(duration=400,position=top)">Integraciones</li>
+                    <li on="tap:sidebar.close,contacto.scrollTo(duration=400,position=top)">Contacto</li>
+                    <li><a href="" class="iniciar-sesion">Iniciar sesión</a></li>
+                    <button id="menu-hamburger" class="hamburger ham-dark" on='tap:sidebar.open'></button>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <section class="header-section" id="header-section">
+        <div class="info-header">
+            <div class="content-info-header">
+                <h1>Administrá más, en menos tiempo.</h1>
+                <h2>
+                    Te damos la bienvenida a una nueva experiencia en gestión de consorcios. Sistema integral para la administración de edificios y barrios privados.
+                </h2>
+                <div class="btn-grande" on="tap:sidebar.close,contacto.scrollTo(duration=400,position=top)">Quiero conocer más</div>
+            </div>
+        </div>
+        <div class="img-dash-header">
+            <amp-img
+                src="assets/img/dash-header.png">
+            </amp-img>
+        </div> 
+    </section>
+    <section class="gestion">
+        <div class="img-gestion">
+            <amp-img
+                src="assets/img/carga-expensas.png">
+            </amp-img>
+        </div>
+        <div class="info-gestion">
+            <div class="content-info-gestion">
+                <h1>La herramienta que necesitas para optimizar
+                    y automatizar tu gestión.</h1>
+                <h2>
+                    Es una plataforma de gestión para la administración de edificios y barrios privados, diseñado para centralizar la información, economizar tiempo y facilitar la comunicación con los vecinos.
+                    Brinda la posibilidad de optimizar y automatizar aquellas tareas extensas y repetitivas del trabajo diario, permitiéndote aprovechar mejor tus recursos, y así poder hacer crecer tu administración.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="medios-de-pago">
+        <div class="content">
+            <h1>Expensas accesibles con medios de pago integrados.</h1>
+            <h2>Incorporamos medios de pago integrados para facilitarle la tarea a la administración (le permite la conciliación automática) y brindarle comodidad a los vecinos dándole diversas maneras para efectuar el pago.</h2>
+            <div class="ventajas-medios-de-pago">
+                <ul>
+                    <li><span></span> Conciliación automática</li>
+                    <li><span></span> Reducir la morosidad</li>
+                    <li><span></span> Seguridad</li>
+                </ul>
+            </div>
+            <div class="img-medios">
+                <amp-img
+                    src="assets/img/medios-1.jpg">
+                </amp-img>
+                
+                <amp-img
+                    src="assets/img/medios-2.jpg">
+                </amp-img>                
+            </div>
+            <div class="btn-grande" on="tap:sidebar.close,contacto.scrollTo(duration=400,position=top)">Quiero que me contacten</div>
+        </div>
+    </section>
+    <section class="funcionalidades" id="funcionalidades">
+        <div class="content">
+            <h1>Funcionalidades</h1>
+            <ul>
+                <li>
+                    <h1>Modelos de expensas</h1>
+                    <p>Modelos personalizables para tu administración.</p>
+                </li>
+                <li>
+                    <h1>Liquidación en 3 pasos</h1>
+                    <p>Cargas gastos, consolidas y envías.</p>
+                </li> 
+                <li>
+                    <h1>Automatización de Cobranzas</h1>
+                    <p>Conciliación, resgistro y control de pago de expensas</p>
+                </li>  
+                <li>
+                    <h1>Gestión de morosos</h1>
+                    <p>Convenios de pago, reportes, informes, estados de cuenta.</p>
+                </li>
+                <li>
+                    <h1>Gestión de proveedores</h1>
+                    <p>Alta de proveedores, facturas, órdenes de pago.</p>
+                </li> 
+                <li>
+                    <h1>Gestión de envio de expensas</h1>
+                    <p>Envios automatizados y control de envíos.</p>
+                </li>                                                
+            </ul>
+        </div>
+    </section>
+    <section class="quienes-somos" id="quienes-somos">
+        <div class="content">
+            <div class="logo-baup">
+                <amp-img
+                    src="assets/img/logo-grande.svg">
+                </amp-img>
+            </div>
+            <div class="info-quienes-somos">
+                <h1>¿Quiénes somos?</h1>
+                <h2>Comenzamos con Expensas Online en el 2012 con el objetivo de modernizar los flujos de trabajo de las administraciones y mejorar la comunicación de éstas con los vecinos, a través de soluciones tecnológicas y digitales. Trabajamos con reconocidas administraciones de todo el país que usan y recomiendan nuestro servicio. Crecimos, y seguimos con la ambición de mejorar la experiencia en las comunidades de edificios y barrios privados.</h2>
+            </div>
+        </div>
+    </section>
+    <section class="nuestros-planes" id="nuestros-planes">
+        <div class="content">
+            <h1>Nuestros Planes</h1>
+            <ul>
+                <li class="basic-plan">
+                    <p>Basic Plan</p>
+                    <div class="price-plan"><span>$</span>579</div>
+                    <div class="features-plan">
+                        Modelo de Expensas<br>
+                        Liquidación en 3 pasos<br>
+                        Automatización de cobranzas<br>
+                        Gestión de morosos<br>
+                        Gestión de proveedores
+                    </div>
+                    <div class="btn-contratar-plan">Contratar</div>
+                </li>
+                <li class="stardart-plan big-plan">
+                    <p>Standart Plan</p>
+                    <div class="price-plan"><span>$</span>999</div>
+                    <div class="features-plan">
+                        Modelo de Expensas<br>
+                        Liquidación en 3 pasos<br>
+                        Automatización de cobranzas<br>
+                        Gestión de morosos<br>
+                        Gestión de proveedores<br>
+                        Gestión de envío de expensas
+                    </div>
+                    <div class="btn-contratar-plan">Contratar</div>
+                </li>
+                <li class="premium-plan">
+                    <p>Premium Plan</p>
+                    <div class="price-plan"><span>$</span>1599</div>
+                    <div class="features-plan">
+                        Modelo de Expensas<br>
+                        Liquidación en 3 pasos<br>
+                        Automatización de cobranzas<br>
+                        Gestión de morosos<br>
+                        Gestión de proveedores<br>
+                        Gestión de envío de expensas<br>
+                        Aplicación de Vecinos
+                    </div>
+                    <div class="btn-contratar-plan">Contratar</div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <section class="integraciones" id="integraciones">
+        <div class="content">
+            <h1>Integraciones</h1>
+            <h2>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño </h2>
+            <ul>
+                <li>
+                    <amp-img
+                        src="assets/img/logo-expensas.jpg"
+                        width="280"
+                        height="53">
+                    </amp-img>          
+                </li>
+                <li>
+                    <amp-img
+                        src="assets/img/logo-pagomiexpensa.jpg"
+                        width="280"
+                        height="53">
+                    </amp-img>          
+                </li>
+                <li>
+                    <amp-img
+                        src="assets/img/logo-siro.jpg"
+                        width="189"
+                        height="73">
+                    </amp-img>          
+                </li>                                
+            </ul>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="content">
+            <h1>Contacto</h1>
+            <div class="formulario">
+                <form action="assets/php/mail.php" method="post" id="contact-form">
+                    <div class="form-input-item">
+                        <input type="text" name="con_name" placeholder="Nombre" required/>
+                    </div>
+
+                    <div class="form-input-item">
+                        <input type="email" name="con_email" placeholder="Email" required/>
+                    </div>
+
+                    <div class="form-input-item">
+                        <input type="text" name="phone_no" placeholder="Teléfono" required/>
+                    </div>     
+
+                    <div class="form-input-item">
+                        <textarea name="con_message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-call-to-action">Enviar mensaje</button>
+                </form>
+            </div>            
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="logo-footer">
+                <amp-img
+                src="assets/img/logo-footer.svg"
+                width="173"
+                height="40">
+                </amp-img>  
+            </div>
+            <div class="legales">
+                <p>2021 © Baup - Todos los derechos reservados.</p>
+                <a href="">Políticas de privacidad</a>
+                <a href="">Términos y condiciones</a>
+            </div>
+        </div>
+    </footer>
+  </body>
+
+</html>
+

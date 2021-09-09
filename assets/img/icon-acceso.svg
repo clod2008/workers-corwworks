@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-Icono_32x32_10">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Icono_32x32_10" data-name="Icono 32x32 – 10" clip-path="url(#clip-Icono_32x32_10)">
+    <rect width="32" height="32" fill="#fff"/>
+    <g id="Grupo_42" data-name="Grupo 42" transform="translate(-487.039 -389.872)">
+      <path id="Trazado_61" data-name="Trazado 61" d="M500.849,425h-2.631v.671h2.631Z" transform="translate(-1.783 -13.387)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Trazado_62" data-name="Trazado 62" d="M501,422.8h-4.031v.671H501Z" transform="translate(-1.267 -12.476)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Trazado_63" data-name="Trazado 63" d="M501.2,420.6h-5.372v.673H501.2Z" transform="translate(-0.793 -11.564)" fill="#fff" fill-rule="evenodd"/>
+      <g id="Grupo_43" data-name="Grupo 43" transform="translate(962 -1176.625)">
+        <path id="Trazado_64" data-name="Trazado 64" d="M-455.715,1571.9l9.738-2.491v26.182l-9.738-2.013Z" transform="translate(-9.599)"/>
+        <path id="Trazado_65" data-name="Trazado 65" d="M-466.711,1577.082H-461l.025.134-4.761,1.044v22.046h-.972Z" transform="translate(0 -6.701)"/>
+        <path id="Trazado_66" data-name="Trazado 66" d="M-371.819,1578.278h-2.872v-.946h3.808v23.185h-.936Z" transform="translate(-80.328 -6.919)"/>
+        <circle id="Elipse_7" data-name="Elipse 7" cx="0.572" cy="0.572" r="0.572" transform="translate(-458.234 1582.823)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
