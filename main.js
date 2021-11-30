@@ -11,7 +11,7 @@ function myFunction() {
 }
 const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
-// claudio define el ancho del cliente 
+// claudio -- define el ancho del cliente 
 const testimonios = document.querySelector("#testimonios");
 buttonsWrapper.addEventListener("click", (e) => {
   if (e.target.nodeName === "BUTTON") {
