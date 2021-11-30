@@ -11,6 +11,9 @@ function myFunction() {
 }
 const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
+// claudio define el ancho del cliente 
+const testimonios = document.querySelector("#testimonios");
+console.log(testimonios.clientWidth)
 
 buttonsWrapper.addEventListener("click", (e) => {
   if (e.target.nodeName === "BUTTON") {
@@ -21,18 +24,52 @@ buttonsWrapper.addEventListener("click", (e) => {
       slides.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains("second")) {
-      slides.style.transform = "translateX(-33.3%)";
-      e.target.classList.add("active");
+        if (testimonios.clientWidth <= 780 ){
+          console.log('celu')
+          slides.style.transform = "translateX(-11%)";
+          e.target.classList.add("active");
+        }else{
+          slides.style.transform = "translateX(-33.3%)";
+          e.target.classList.add("active");
+        }
     } else if (e.target.classList.contains("third")) {
-      slides.style.transform = "translatex(-66.6%)";
-      e.target.classList.add("active");
+      if (testimonios.clientWidth <= 780 ){
+        slides.style.transform = "translatex(-22%)";
+        e.target.classList.add("active");
+      }else{
+        slides.style.transform = "translatex(-66.6%)";
+        e.target.classList.add("active");
+      }
     } else if (e.target.classList.contains("fourth")) {
-      slides.style.transform = "translatex(-60%)";
-      e.target.classList.add("active");
+      if (testimonios.clientWidth <= 780 ){
+        slides.style.transform = "translatex(-33%)";
+        e.target.classList.add("active");
+      }else{
+        slides.style.transform = "translatex(-60%)";
+        e.target.classList.add("active");
+      }
     } else if (e.target.classList.contains("fifth")) {
-      slides.style.transform = "translatex(-80%)";
+      if (testimonios.clientWidth <= 780 ){
+        slides.style.transform = "translatex(-44.1%)";
+        e.target.classList.add("active");
+      }else{
+        slides.style.transform = "translatex(-80%)";
+        e.target.classList.add("active");
+      }
+    } else if(e.target.classList.contains("sixth")){
+      slides.style.transform = "translatex(-55.5%)";
+      e.target.classList.add("active");
+    } else if(e.target.classList.contains("seventh")){
+      slides.style.transform = "translatex(-66.7%)";
+      e.target.classList.add("active");
+    } else if(e.target.classList.contains("eighth")){
+      slides.style.transform = "translatex(-77.8%)";
+      e.target.classList.add("active");
+    } else if(e.target.classList.contains("nineth")){
+      slides.style.transform = "translatex(-89.1%)";
       e.target.classList.add("active");
     }
+
   }
 });
 const burgerMenu = document.querySelector("#burgerMenu");

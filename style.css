@@ -1163,6 +1163,18 @@ button.fourth {
 button.fifth {
   display: none;
 }
+button.sixth {
+  display: none;
+}
+button.seventh {
+  display: none;
+}
+button.eighth {
+  display: none;
+}
+button.nineth {
+  display: none;
+}
 .active {
   background: #00fd01 !important;
 }
@@ -1180,6 +1192,18 @@ button.fifth {
     display: inline-block;
   }
   button.fifth {
+    display: inline-block;
+  }
+  button.sixth {
+    display: inline-block;
+  }
+  button.seventh {
+    display: inline-block;
+  }
+  button.eighth {
+    display: inline-block;
+  }
+  button.nineth {
     display: inline-block;
   }
   .wrapper {
