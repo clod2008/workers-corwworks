@@ -13,8 +13,6 @@ const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
 // claudio define el ancho del cliente 
 const testimonios = document.querySelector("#testimonios");
-console.log(testimonios.clientWidth)
-
 buttonsWrapper.addEventListener("click", (e) => {
   if (e.target.nodeName === "BUTTON") {
     Array.from(buttonsWrapper.children).forEach((item) =>
@@ -25,7 +23,6 @@ buttonsWrapper.addEventListener("click", (e) => {
       e.target.classList.add("active");
     } else if (e.target.classList.contains("second")) {
         if (testimonios.clientWidth <= 780 ){
-          console.log('celu')
           slides.style.transform = "translateX(-11%)";
           e.target.classList.add("active");
         }else{
