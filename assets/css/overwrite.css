@@ -1,3 +1,46 @@
+:root {
+
+    --bs-green: #00fd01 !important;
+    
+  }
+
+
 .mt-5 {
     margin-top: 3em;
+}
+
+.content-testmonio{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1em; */
+}
+
+.firma {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+           
+}
+.firma h2{
+    line-height: 0.1em;
+    display: flex;
+    align-self: flex-start;
+}
+.firma small{
+    line-height: normal;
+    display: flex;
+    align-self: flex-start;   
+
+}
+.firma small a{
+    color: #00fd01;
+    
+}
+
+.firma small a:hover{
+    opacity: 0.5;
+    /* transition: all 0.5s ease-in-out ; */
+
 }

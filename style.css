@@ -397,9 +397,19 @@ nav li {
   align-items: center;
 }
 
+.icon-services img {
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+
 .data-item-services {
+  
   width: calc(90% - 80px);
   margin-left: 40px;
+  
 }
 .item-hide {
   display: none;
@@ -1173,12 +1183,13 @@ button.fifth {
     display: inline-block;
   }
   .wrapper {
-    width: 26em;
+    width: 25em;
   }
-
+  
   .card > .content-testmonio {
     width: 25em;
     text-align: center;
+    
   }
 }
 @media (max-width: 425px) {

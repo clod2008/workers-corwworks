@@ -21,10 +21,10 @@ buttonsWrapper.addEventListener("click", (e) => {
       slides.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains("second")) {
-      slides.style.transform = "translateX(-20%)";
+      slides.style.transform = "translateX(-33.3%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains("third")) {
-      slides.style.transform = "translatex(-40%)";
+      slides.style.transform = "translatex(-66.6%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains("fourth")) {
       slides.style.transform = "translatex(-60%)";
