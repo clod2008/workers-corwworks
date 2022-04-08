@@ -507,7 +507,7 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 350px;
+  height: 250px;
 }
 .planes-list li h2 {
   color: #222222;
